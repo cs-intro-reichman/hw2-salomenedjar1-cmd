@@ -10,7 +10,7 @@ public class Cheers {
         public static void main(String[] args) 
         {
         String word = args[0].toUpperCase();
-        int num= Integer.parseInt(args[0]);
+        int num= Integer.parseInt(args[1]);
         int N = word.length();
 
         for (int i = 0; i < N; i++) 
